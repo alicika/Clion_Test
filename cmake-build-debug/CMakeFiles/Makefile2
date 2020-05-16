@@ -52,7 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\PYLP\default\Clion_Test\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Clion_Test.dir/all
+all:
 
 .PHONY : all
 
@@ -62,36 +62,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Clion_Test.dir/clean
+clean:
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Clion_Test.dir
-
-# All Build rule for target.
-CMakeFiles/Clion_Test.dir/all:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/depend
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PYLP\default\Clion_Test\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Clion_Test"
-.PHONY : CMakeFiles/Clion_Test.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Clion_Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PYLP\default\Clion_Test\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Clion_Test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PYLP\default\Clion_Test\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Clion_Test.dir/rule
-
-# Convenience name for target.
-Clion_Test: CMakeFiles/Clion_Test.dir/rule
-
-.PHONY : Clion_Test
-
-# clean rule for target.
-CMakeFiles/Clion_Test.dir/clean:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/clean
-.PHONY : CMakeFiles/Clion_Test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

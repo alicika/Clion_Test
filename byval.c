@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-double power (double x, int y)
+double power (double x, int n)
 {
     int i;
     double tmp = 1.0;
@@ -17,8 +17,8 @@ int main(void)
     int b;
 
     printf("calc the first arg powered by the second\n");
-    printf("real number a: ");  scanf("%lf", %a)
-    printf("real number b:");   scanf("%d", %b);
+    printf("real number a:");  scanf("%lf", &a);
+    printf("real number b:");   scanf("%d", &b);
 
     printf("%.2f powered by %d is: %.2f \n", a, b, power(a, b));
 

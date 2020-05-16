@@ -109,58 +109,14 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Clion_Test
-
-# Build rule for target.
-Clion_Test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Clion_Test
-.PHONY : Clion_Test
-
-# fast build rule for target.
-Clion_Test/fast:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/build
-.PHONY : Clion_Test/fast
-
-show_distribution.obj: show_distribution.c.obj
-
-.PHONY : show_distribution.obj
-
-# target to build an object file
-show_distribution.c.obj:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/show_distribution.c.obj
-.PHONY : show_distribution.c.obj
-
-show_distribution.i: show_distribution.c.i
-
-.PHONY : show_distribution.i
-
-# target to preprocess a source file
-show_distribution.c.i:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/show_distribution.c.i
-.PHONY : show_distribution.c.i
-
-show_distribution.s: show_distribution.c.s
-
-.PHONY : show_distribution.s
-
-# target to generate assembly for a file
-show_distribution.c.s:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/show_distribution.c.s
-.PHONY : show_distribution.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Clion_Test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... show_distribution.obj
-	@echo ... show_distribution.i
-	@echo ... show_distribution.s
 .PHONY : help
 
 

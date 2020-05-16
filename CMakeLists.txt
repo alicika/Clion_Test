@@ -1,6 +1,28 @@
-cmake_minimum_required(VERSION 3.16)
-project(Clion_Test C)
+cmake_minimum_required(VERSION 3.4)
+project(ABC CXX)
 
-set(CMAKE_C_STANDARD 99)
+# サブディレクトリ内のソースをすべてプロジェクトにぶちこむマクロ
+MACRO(ADD_ALL_SUBDIR result curdir)
+    FILE(GLOB children RELATIVE ${curdir} ${curdir}/*)
+    SET(dirlist "")
+    FOREACH(child ${children})
+        IF(IS_DIRECTORY ${curdir}/${child})
+            LIST(APPEND dirlist ${child})
+            # CMakeがディレクトリにあるか(1のパターン)無いか(2のパターン)で分岐
+            IF(EXISTS ${curdir}/${child}/CMakeLists.txt)
+                add_subdirectory(${%biild})
+            ELSE()
+                aux_source_directory(${child} SOURCE)
+            ENDIF()
+        ENDIF()
+    ENDFOREACH()
+    SET(${result} ${dirlist})
+ENDMACRO()
 
-add_executable(Clion_Test show_distribution.c)
+ADD_ALL_SUBDIR(SUBDIRS ${ABC_SOURCE_DIR})
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+IF(SOURCE)
+    add_executable(ABC ${SOURCE})
+ENDIF()
