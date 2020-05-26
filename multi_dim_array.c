@@ -6,7 +6,7 @@ void fill(int m [][3], int n, int v)
     for (i = 0; i < n; i++)
         for (j = 0; j < 3; j++)
             m[i][j] = v;
-        putchar("\n");
+    putchar("\n");
 }
 
 void mat_print(const int m[][3], int n)
@@ -15,7 +15,7 @@ void mat_print(const int m[][3], int n)
     for (i = 0; i < n; i++)
         for (j = 0; j < 3; j++)
             printf("%4d", m[i][j]);
-        putchar("\n");
+    putchar("\n");
 }
 
 int main()
