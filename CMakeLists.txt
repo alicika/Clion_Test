@@ -3,4 +3,4 @@ project(Clion_Test C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Clion_Test multi_dim_array.c)
+add_executable(Clion_Test shift_operating.c)

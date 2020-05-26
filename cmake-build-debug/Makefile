@@ -122,32 +122,32 @@ Clion_Test/fast:
 	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/build
 .PHONY : Clion_Test/fast
 
-multi_dim_array.obj: multi_dim_array.c.obj
+shift_operating.obj: shift_operating.c.obj
 
-.PHONY : multi_dim_array.obj
+.PHONY : shift_operating.obj
 
 # target to build an object file
-multi_dim_array.c.obj:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/multi_dim_array.c.obj
-.PHONY : multi_dim_array.c.obj
+shift_operating.c.obj:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/shift_operating.c.obj
+.PHONY : shift_operating.c.obj
 
-multi_dim_array.i: multi_dim_array.c.i
+shift_operating.i: shift_operating.c.i
 
-.PHONY : multi_dim_array.i
+.PHONY : shift_operating.i
 
 # target to preprocess a source file
-multi_dim_array.c.i:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/multi_dim_array.c.i
-.PHONY : multi_dim_array.c.i
+shift_operating.c.i:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/shift_operating.c.i
+.PHONY : shift_operating.c.i
 
-multi_dim_array.s: multi_dim_array.c.s
+shift_operating.s: shift_operating.c.s
 
-.PHONY : multi_dim_array.s
+.PHONY : shift_operating.s
 
 # target to generate assembly for a file
-multi_dim_array.c.s:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/multi_dim_array.c.s
-.PHONY : multi_dim_array.c.s
+shift_operating.c.s:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/shift_operating.c.s
+.PHONY : shift_operating.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Clion_Test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... multi_dim_array.obj
-	@echo ... multi_dim_array.i
-	@echo ... multi_dim_array.s
+	@echo ... shift_operating.obj
+	@echo ... shift_operating.i
+	@echo ... shift_operating.s
 .PHONY : help
 
 

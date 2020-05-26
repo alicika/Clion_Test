@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Clion_Test.dir/multi_dim_array.c.obj"
+  "CMakeFiles/Clion_Test.dir/shift_operating.c.obj"
   "Clion_Test.exe"
   "Clion_Test.exe.manifest"
   "Clion_Test.pdb"

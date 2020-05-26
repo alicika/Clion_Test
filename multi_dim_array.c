@@ -24,12 +24,12 @@ int main()
     int x[2][3] = {0};
     int y[4][3] = {0};
 
-    printf("value to substitute:"); scanf("%d", &no);
+    printf("value to substitute: "); scanf("%d", &no);
 
     fill(x, 2, no);
     fill(y, 4, no);
 
-    printf("----x----\n"); mat_print(x, 2);
+    printf("----x----\n"); mat_print(x, 2); printf("\n");
     printf("----y----\n"); mat_print(y, 4);
 
     return 0;
