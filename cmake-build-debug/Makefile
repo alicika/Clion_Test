@@ -109,14 +109,58 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named Clion_Test
+
+# Build rule for target.
+Clion_Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Clion_Test
+.PHONY : Clion_Test
+
+# fast build rule for target.
+Clion_Test/fast:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/build
+.PHONY : Clion_Test/fast
+
+multi_dim_array.obj: multi_dim_array.c.obj
+
+.PHONY : multi_dim_array.obj
+
+# target to build an object file
+multi_dim_array.c.obj:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/multi_dim_array.c.obj
+.PHONY : multi_dim_array.c.obj
+
+multi_dim_array.i: multi_dim_array.c.i
+
+.PHONY : multi_dim_array.i
+
+# target to preprocess a source file
+multi_dim_array.c.i:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/multi_dim_array.c.i
+.PHONY : multi_dim_array.c.i
+
+multi_dim_array.s: multi_dim_array.c.s
+
+.PHONY : multi_dim_array.s
+
+# target to generate assembly for a file
+multi_dim_array.c.s:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/multi_dim_array.c.s
+.PHONY : multi_dim_array.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Clion_Test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... multi_dim_array.obj
+	@echo ... multi_dim_array.i
+	@echo ... multi_dim_array.s
 .PHONY : help
 
 

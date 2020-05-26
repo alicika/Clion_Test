@@ -56,27 +56,27 @@ include CMakeFiles/Clion_Test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Clion_Test.dir/flags.make
 
-CMakeFiles/Clion_Test.dir/byval.c.obj: CMakeFiles/Clion_Test.dir/flags.make
-CMakeFiles/Clion_Test.dir/byval.c.obj: ../byval.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PYLP\default\Clion_Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Clion_Test.dir/byval.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Clion_Test.dir\byval.c.obj   -c C:\Users\PYLP\default\Clion_Test\byval.c
+CMakeFiles/Clion_Test.dir/multi_dim_array.c.obj: CMakeFiles/Clion_Test.dir/flags.make
+CMakeFiles/Clion_Test.dir/multi_dim_array.c.obj: ../multi_dim_array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PYLP\default\Clion_Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Clion_Test.dir/multi_dim_array.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Clion_Test.dir\multi_dim_array.c.obj   -c C:\Users\PYLP\default\Clion_Test\multi_dim_array.c
 
-CMakeFiles/Clion_Test.dir/byval.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Clion_Test.dir/byval.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\PYLP\default\Clion_Test\byval.c > CMakeFiles\Clion_Test.dir\byval.c.i
+CMakeFiles/Clion_Test.dir/multi_dim_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Clion_Test.dir/multi_dim_array.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\PYLP\default\Clion_Test\multi_dim_array.c > CMakeFiles\Clion_Test.dir\multi_dim_array.c.i
 
-CMakeFiles/Clion_Test.dir/byval.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Clion_Test.dir/byval.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\PYLP\default\Clion_Test\byval.c -o CMakeFiles\Clion_Test.dir\byval.c.s
+CMakeFiles/Clion_Test.dir/multi_dim_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Clion_Test.dir/multi_dim_array.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\PYLP\default\Clion_Test\multi_dim_array.c -o CMakeFiles\Clion_Test.dir\multi_dim_array.c.s
 
 # Object files for target Clion_Test
 Clion_Test_OBJECTS = \
-"CMakeFiles/Clion_Test.dir/byval.c.obj"
+"CMakeFiles/Clion_Test.dir/multi_dim_array.c.obj"
 
 # External object files for target Clion_Test
 Clion_Test_EXTERNAL_OBJECTS =
 
-Clion_Test.exe: CMakeFiles/Clion_Test.dir/byval.c.obj
+Clion_Test.exe: CMakeFiles/Clion_Test.dir/multi_dim_array.c.obj
 Clion_Test.exe: CMakeFiles/Clion_Test.dir/build.make
 Clion_Test.exe: CMakeFiles/Clion_Test.dir/linklibs.rsp
 Clion_Test.exe: CMakeFiles/Clion_Test.dir/objects1.rsp
