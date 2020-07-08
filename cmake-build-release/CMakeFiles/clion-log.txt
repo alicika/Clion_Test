@@ -1,0 +1,6 @@
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -D -G "CodeBlocks - MinGW Makefiles" C:\Users\PYLP\default\Clion_Test
+Parse error in command line argument: -D
+Should be: VAR:type=value
+CMake Error: No cmake script provided.
+CMake Error: Problem processing arguments. Aborting.
+

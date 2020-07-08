@@ -122,32 +122,32 @@ Clion_Test/fast:
 	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/build
 .PHONY : Clion_Test/fast
 
-shift_operating.obj: shift_operating.c.obj
+insertion_sort.obj: insertion_sort.c.obj
 
-.PHONY : shift_operating.obj
+.PHONY : insertion_sort.obj
 
 # target to build an object file
-shift_operating.c.obj:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/shift_operating.c.obj
-.PHONY : shift_operating.c.obj
+insertion_sort.c.obj:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/insertion_sort.c.obj
+.PHONY : insertion_sort.c.obj
 
-shift_operating.i: shift_operating.c.i
+insertion_sort.i: insertion_sort.c.i
 
-.PHONY : shift_operating.i
+.PHONY : insertion_sort.i
 
 # target to preprocess a source file
-shift_operating.c.i:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/shift_operating.c.i
-.PHONY : shift_operating.c.i
+insertion_sort.c.i:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/insertion_sort.c.i
+.PHONY : insertion_sort.c.i
 
-shift_operating.s: shift_operating.c.s
+insertion_sort.s: insertion_sort.c.s
 
-.PHONY : shift_operating.s
+.PHONY : insertion_sort.s
 
 # target to generate assembly for a file
-shift_operating.c.s:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/shift_operating.c.s
-.PHONY : shift_operating.c.s
+insertion_sort.c.s:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/insertion_sort.c.s
+.PHONY : insertion_sort.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Clion_Test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... shift_operating.obj
-	@echo ... shift_operating.i
-	@echo ... shift_operating.s
+	@echo ... insertion_sort.obj
+	@echo ... insertion_sort.i
+	@echo ... insertion_sort.s
 .PHONY : help
 
 

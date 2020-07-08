@@ -3,4 +3,5 @@ project(Clion_Test C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Clion_Test shift_operating.c)
+set(SOURCE_FILES insertion_sort.c)
+add_executable(Clion_Test ${SOURCE_FILES})

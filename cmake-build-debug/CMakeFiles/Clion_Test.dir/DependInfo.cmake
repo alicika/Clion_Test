@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/PYLP/default/Clion_Test/shift_operating.c" "C:/Users/PYLP/default/Clion_Test/cmake-build-debug/CMakeFiles/Clion_Test.dir/shift_operating.c.obj"
+  "C:/Users/PYLP/default/Clion_Test/insertion_sort.c" "C:/Users/PYLP/default/Clion_Test/cmake-build-debug/CMakeFiles/Clion_Test.dir/insertion_sort.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
