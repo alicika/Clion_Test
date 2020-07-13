@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Clion_Test.dir/insertion_sort.c.obj"
+  "CMakeFiles/Clion_Test.dir/bubble_sort.c.obj"
   "Clion_Test.exe"
   "Clion_Test.exe.manifest"
   "Clion_Test.pdb"
