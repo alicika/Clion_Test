@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/PYLP/default/Clion_Test/bubble sort.c">
+		<Unit filename="C:/Users/PYLP/default/Clion_Test/insertion_sort.c">
 			<Option target="Clion_Test"/>
 		</Unit>
 		<Unit filename="C:/Users/PYLP/default/Clion_Test/CMakeLists.txt">
