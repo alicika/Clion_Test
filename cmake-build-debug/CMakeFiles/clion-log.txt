@@ -1,4 +1,10 @@
 "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\PYLP\default\Clion_Test
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/PYLP/default/Clion_Test/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_executable):
+  add_executable cannot create target "Clion_Test" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "C:/Users/PYLP/default/Clion_Test".  See
+  documentation for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/PYLP/default/Clion_Test/cmake-build-debug/CMakeFiles/CMakeOutput.log".

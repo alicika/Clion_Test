@@ -3,5 +3,6 @@ project(Clion_Test C)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES  "insertion_sort.c")
+set(SOURCE_FILES  "func_temp.c")
 add_executable(Clion_Test ${SOURCE_FILES})
+add_executable(Clion_Test func_temp.c)

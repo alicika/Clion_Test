@@ -56,27 +56,27 @@ include CMakeFiles/Clion_Test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Clion_Test.dir/flags.make
 
-CMakeFiles/Clion_Test.dir/insertion_sort.c.obj: CMakeFiles/Clion_Test.dir/flags.make
-CMakeFiles/Clion_Test.dir/insertion_sort.c.obj: ../insertion_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PYLP\default\Clion_Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Clion_Test.dir/insertion_sort.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Clion_Test.dir\insertion_sort.c.obj   -c C:\Users\PYLP\default\Clion_Test\insertion_sort.c
+CMakeFiles/Clion_Test.dir/func_temp.c.obj: CMakeFiles/Clion_Test.dir/flags.make
+CMakeFiles/Clion_Test.dir/func_temp.c.obj: ../func_temp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PYLP\default\Clion_Test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Clion_Test.dir/func_temp.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Clion_Test.dir\func_temp.c.obj   -c C:\Users\PYLP\default\Clion_Test\func_temp.c
 
-CMakeFiles/Clion_Test.dir/insertion_sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Clion_Test.dir/insertion_sort.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\PYLP\default\Clion_Test\insertion_sort.c > CMakeFiles\Clion_Test.dir\insertion_sort.c.i
+CMakeFiles/Clion_Test.dir/func_temp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Clion_Test.dir/func_temp.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\PYLP\default\Clion_Test\func_temp.c > CMakeFiles\Clion_Test.dir\func_temp.c.i
 
-CMakeFiles/Clion_Test.dir/insertion_sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Clion_Test.dir/insertion_sort.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\PYLP\default\Clion_Test\insertion_sort.c -o CMakeFiles\Clion_Test.dir\insertion_sort.c.s
+CMakeFiles/Clion_Test.dir/func_temp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Clion_Test.dir/func_temp.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\PYLP\default\Clion_Test\func_temp.c -o CMakeFiles\Clion_Test.dir\func_temp.c.s
 
 # Object files for target Clion_Test
 Clion_Test_OBJECTS = \
-"CMakeFiles/Clion_Test.dir/insertion_sort.c.obj"
+"CMakeFiles/Clion_Test.dir/func_temp.c.obj"
 
 # External object files for target Clion_Test
 Clion_Test_EXTERNAL_OBJECTS =
 
-Clion_Test.exe: CMakeFiles/Clion_Test.dir/insertion_sort.c.obj
+Clion_Test.exe: CMakeFiles/Clion_Test.dir/func_temp.c.obj
 Clion_Test.exe: CMakeFiles/Clion_Test.dir/build.make
 Clion_Test.exe: CMakeFiles/Clion_Test.dir/linklibs.rsp
 Clion_Test.exe: CMakeFiles/Clion_Test.dir/objects1.rsp

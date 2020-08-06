@@ -122,32 +122,32 @@ Clion_Test/fast:
 	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/build
 .PHONY : Clion_Test/fast
 
-insertion_sort.obj: insertion_sort.c.obj
+func_temp.obj: func_temp.c.obj
 
-.PHONY : insertion_sort.obj
+.PHONY : func_temp.obj
 
 # target to build an object file
-insertion_sort.c.obj:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/insertion_sort.c.obj
-.PHONY : insertion_sort.c.obj
+func_temp.c.obj:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/func_temp.c.obj
+.PHONY : func_temp.c.obj
 
-insertion_sort.i: insertion_sort.c.i
+func_temp.i: func_temp.c.i
 
-.PHONY : insertion_sort.i
+.PHONY : func_temp.i
 
 # target to preprocess a source file
-insertion_sort.c.i:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/insertion_sort.c.i
-.PHONY : insertion_sort.c.i
+func_temp.c.i:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/func_temp.c.i
+.PHONY : func_temp.c.i
 
-insertion_sort.s: insertion_sort.c.s
+func_temp.s: func_temp.c.s
 
-.PHONY : insertion_sort.s
+.PHONY : func_temp.s
 
 # target to generate assembly for a file
-insertion_sort.c.s:
-	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/insertion_sort.c.s
-.PHONY : insertion_sort.c.s
+func_temp.c.s:
+	$(MAKE) -f CMakeFiles\Clion_Test.dir\build.make CMakeFiles/Clion_Test.dir/func_temp.c.s
+.PHONY : func_temp.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Clion_Test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... insertion_sort.obj
-	@echo ... insertion_sort.i
-	@echo ... insertion_sort.s
+	@echo ... func_temp.obj
+	@echo ... func_temp.i
+	@echo ... func_temp.s
 .PHONY : help
 
 
