@@ -3,6 +3,6 @@ project(Clion_Test C)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES  "bubble sort.c")
+set(SOURCE_FILES  "byval.c")
 add_executable(Clion_Test ${SOURCE_FILES})
-add_executable(Clion_Test bubble sort.c)
+add_executable(Clion_Test byval.c)
