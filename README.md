@@ -5,4 +5,4 @@ Practical Repo on my way to equip C programming language.
 I dunno, but I would rather make this repo more practical, not just following the materials.
 
 ## Main feature
-the sorting algorithm.
+the sorting algorithm.cetraets
